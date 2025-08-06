@@ -10,7 +10,8 @@
 # Folder user-specific
 *.user
 .settings/
-
+.objects/
+.storage/
 # Package dependencies
 packages/
 *.nupkg
