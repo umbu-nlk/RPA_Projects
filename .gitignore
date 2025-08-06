@@ -1,0 +1,47 @@
+# Folder auto-generated saat build atau publish
+.project/
+.publish/
+
+# File log & debugging
+*.local
+*.screenshots
+*.log
+
+# Folder user-specific
+*.user
+.settings/
+
+# Package dependencies
+packages/
+*.nupkg
+
+# Output dari test execution
+TestResults/
+*.coverage
+*.vspx
+*.vsmdi
+
+# Folder sementara UiPath
+.cache/
+*.json.backup
+
+# File konfigurasi yang bersifat lokal
+UiPath.settings
+project.json.backup
+
+# Visual Studio / VS Code / Rider
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows & macOS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# GitHub Copilot atau extensions lainnya
+*.code-workspace
